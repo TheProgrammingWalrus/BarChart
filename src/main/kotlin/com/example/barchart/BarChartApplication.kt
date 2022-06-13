@@ -8,7 +8,7 @@ import javafx.stage.Stage
 class HelloApplication : Application() {
     override fun start(stage: Stage) {
         val pane = Pane()
-        val scene = Scene(pane, 320.0, 240.0)
+        val scene = Scene(pane, 500.0, 500.0)
         stage.title = "Bar Chart"
         stage.scene = scene
         stage.show()
